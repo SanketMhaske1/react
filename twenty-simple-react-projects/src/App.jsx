@@ -14,6 +14,12 @@ import TabTest from "./components/custom-tabs/tab.text";
 import ModeTest from "./components/custome-model-popup/mode-test";
 import GithubProfileFinder from "./components/github-profiles-finder";
 import SearchAutocomplete from "./components/serach-autocomplete";
+import TicTacToe from "./components/tic-tack-toe";
+import UseFetchHookTest from "./components/use-fetch/test";
+import UseOnClickOutside from "./components/use-outsideclick/test";
+import UseWindowResizeTest from "./components/use-window-resize/test";
+import ScrollToTopAnsBottom from "./components/scroll-to-top-and-bottom";
+import ScrollToSections from "./components/scroll-to-top-and-bottom/scroll-to-sections";
 
 function App() {
   return (
@@ -38,7 +44,13 @@ function App() {
       {/* <TabTest /> */}
       {/* <ModeTest /> */}
       {/* <GithubProfileFinder /> */}
-      <SearchAutocomplete />
+      {/* <SearchAutocomplete /> */}
+      {/* <TicTacToe /> */}
+      {/* <UseFetchHookTest /> */}
+      {/* <UseOnClickOutside /> */}
+      {/* <UseWindowResizeTest /> */}
+      {/* <ScrollToTopAnsBottom /> */}
+      <ScrollToSections />
     </div>
   );
 }
